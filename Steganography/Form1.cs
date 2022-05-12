@@ -46,7 +46,7 @@ namespace Steganography
 
             if(HiddenText.Equals(""))
             {
-                MessageBox.Show("이미지에 숨길 문자열을 선택하세요.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("이미지에 숨길 문자열을 입력하세요.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.txtData.Focus();
                 return;
             }
