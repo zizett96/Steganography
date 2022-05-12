@@ -53,7 +53,7 @@ namespace Steganography
 
             if(this.txtKey.Text.Length<8)
             {
-                MessageBox.Show("비밀키는 8자리 이상을 입력하세요.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("비밀 키는 8자리 이상을 입력하세요.", "알림", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.txtKey.Focus();
                 return;
             }
